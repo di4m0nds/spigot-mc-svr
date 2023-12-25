@@ -4,6 +4,7 @@
 ## Prerequisites
 
 - **Java Version:** Java 21/Java 17
+   - `sudo apt install openjdk-21-jre-headless`
 
 ### Steps
 
@@ -20,9 +21,9 @@
    ```sh
    iex (irm spigot.tc.ht)
    ```
-   or
+   Or, run:
    ```sh
-   sudo apt install openjdk-21-jre-headless
+   wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
    ```
    - This command downloads the necessary tools for building Spigot.
 5. **Build Spigot:**
