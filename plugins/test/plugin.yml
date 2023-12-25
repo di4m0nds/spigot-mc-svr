@@ -3,13 +3,17 @@ version: 0.0.1+52
 description: A simple Spigot plugin
 author: di4m0nds
 main: com.di4m0nds.test.Test
+
 # website: https://example.com  # A link to your plugin's website or documentation
+
 api-version: 1.20
 prefix: "TestMyFirstPlugin"     # Optional: A prefix for plugin-related messages
 load: STARTUP                 # Specifies when the plugin should be loaded (STARTUP or POSTWORLD)
+
 # soft-depend:                  # Optional: List of soft dependencies (plugins that are recommended but not required)
 #   - AnotherPlugin
 # depend: []
+
 commands:                     # Define custom commands
   heal:
     description: "Heal"

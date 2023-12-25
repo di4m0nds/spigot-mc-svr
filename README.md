@@ -20,6 +20,10 @@
    ```sh
    iex (irm spigot.tc.ht)
    ```
+   or
+   ```sh
+   sudo apt install openjdk-21-jre-headless
+   ```
    - This command downloads the necessary tools for building Spigot.
 5. **Build Spigot:**
 
@@ -35,7 +39,10 @@
     ```
     - Create a new folder outside of the Spigot folder and paste these files there.
 7. **Execute the Server:**
-    - Run the server using the ./start.bat file.
+    - Run the server using the ./start.bat file. Or run the next command:
+    ```sh
+    java -Xmx2G -jar spigot-1.20.1.jar
+    ```
 
 ## Useful extra plugins
 - [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fastasyncworldedit.13932/)

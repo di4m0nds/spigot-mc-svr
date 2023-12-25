@@ -9,7 +9,7 @@
 
 - Compile the plugin (root directory)
 ```shell
-javac -cp lib/spigot-api.jar -d bin src/com/di4m0nds/test/Test.java .\src\com\di4m0nds\test\commands\TestCommands.java
+javac -cp ./lib/spigot-api-1.20.1.jar -d bin src/com/di4m0nds/test/Test.java ./src/com/di4m0nds/test/commands/TestCommands.java
 ```
 or
 ```shell
@@ -28,7 +28,7 @@ jar cf test.jar com
 
 - Add yml to jar (inside ./bin folder)
 ```shell
-jar uf test.jar plugin.yml
+jar uf test.jar ../plugin.yml
 ```
 
 > must be the same *.yml!
