@@ -1,9 +1,9 @@
 # Info
 
-**Minecraft Version:** 1.20.1  
-**Plugin Version:** 0.0.1+2
-**Spigot API Version:** 1.20.1
-**Java Version:** Java 21
+- **Minecraft Version:** `1.20.1`
+- **Plugin Version:** `0.0.1+52`
+- **Spigot API Version:** `1.20.1`
+- **Java Version:** `Java 21`
 
 # Steps
 
